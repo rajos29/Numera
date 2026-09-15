@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Generated experiment outputs
+python_lab/data/
+
+# Native and Arduino build products
+build*/
+native/build/
+*.o
+*.obj
+*.exe
+*.elf
+*.bin
+*.map
+*.cod
+*.a
+*.d
+
+# IDE/editor local state
+.vscode/
+.idea/
+
+# OS noise
+Thumbs.db
+.DS_Store

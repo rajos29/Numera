@@ -1,0 +1,26 @@
+{
+  "experiment_id": "arithmetic_large_magnitude_python_learning",
+  "operations": [
+    "empty_loop",
+    "add",
+    "subtract",
+    "multiply",
+    "divide"
+  ],
+  "numeric_types": [
+    "float32",
+    "float64"
+  ],
+  "samples": 1000,
+  "trials": 5,
+  "passes": 1000,
+  "seed": 20260912,
+  "input_class": "uniform_large_magnitude",
+  "input_parameters": {
+    "a_low": -1000000.0,
+    "a_high": 1000000.0,
+    "abs_b_low": 1000.0,
+    "abs_b_high": 1000000.0
+  },
+  "question": "Does absolute error grow when the input and result scale are much larger?"
+}

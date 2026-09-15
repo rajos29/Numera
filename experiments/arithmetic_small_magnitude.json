@@ -1,0 +1,26 @@
+{
+  "experiment_id": "arithmetic_small_magnitude_python_learning",
+  "operations": [
+    "empty_loop",
+    "add",
+    "subtract",
+    "multiply",
+    "divide"
+  ],
+  "numeric_types": [
+    "float32",
+    "float64"
+  ],
+  "samples": 1000,
+  "trials": 5,
+  "passes": 1000,
+  "seed": 20260912,
+  "input_class": "uniform_small_magnitude",
+  "input_parameters": {
+    "a_low": -0.001,
+    "a_high": 0.001,
+    "abs_b_low": 0.000001,
+    "abs_b_high": 0.001
+  },
+  "question": "How do arithmetic errors behave when inputs and many outputs are small?"
+}

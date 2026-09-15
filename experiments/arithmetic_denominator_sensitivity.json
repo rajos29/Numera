@@ -1,0 +1,26 @@
+{
+  "experiment_id": "arithmetic_denominator_sensitivity_python_learning",
+  "operations": [
+    "empty_loop",
+    "add",
+    "subtract",
+    "multiply",
+    "divide"
+  ],
+  "numeric_types": [
+    "float32",
+    "float64"
+  ],
+  "samples": 1000,
+  "trials": 5,
+  "passes": 1000,
+  "seed": 20260912,
+  "input_class": "small_denominator",
+  "input_parameters": {
+    "a_low": -1000.0,
+    "a_high": 1000.0,
+    "abs_b_low": 0.000001,
+    "abs_b_high": 0.01
+  },
+  "question": "How does division behave when denominators are small but nonzero?"
+}

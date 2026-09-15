@@ -1,0 +1,26 @@
+{
+  "experiment_id": "arithmetic_cancellation_python_learning",
+  "operations": [
+    "empty_loop",
+    "add",
+    "subtract",
+    "multiply",
+    "divide"
+  ],
+  "numeric_types": [
+    "float32",
+    "float64"
+  ],
+  "samples": 1000,
+  "trials": 5,
+  "passes": 1000,
+  "seed": 20260912,
+  "input_class": "cancellation",
+  "input_parameters": {
+    "base_low": 1000.0,
+    "base_high": 100000.0,
+    "delta_low": -10.0,
+    "delta_high": 10.0
+  },
+  "question": "What happens when addition or subtraction combines nearly equal large values and produces a small result?"
+}
